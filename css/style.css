@@ -26,8 +26,8 @@
 }
 
 .disppear {
-  -webkit-animation: vanish 1s forwards;
-          animation: vanish 1s forwards;
+  -webkit-animation: vanish 4s forwards;
+          animation: vanish 4s forwards;
 }
 
 @-webkit-keyframes vanish {
@@ -134,5 +134,67 @@ canvas {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+
+.container .particles .container-menu {
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.container .particles .container-menu .navegation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10%;
+}
+
+.container .particles .container-menu .navegation .logotipo {
+  font-size: 55px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #0b64c9;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.container .particles .container-menu .navegation .menu_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.container .particles .container-menu .navegation .menu_items li:hover {
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.container .particles .container-menu .navegation .menu_items li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.container .particles .container-menu .navegation .icon_menu {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.container .particles .container-menu .navegation ul.show {
+  top: 65px;
 }
 /*# sourceMappingURL=style.css.map */

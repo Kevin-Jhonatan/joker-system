@@ -1,0 +1,51 @@
+.container {
+  .particles {
+    .container-menu {
+      background: #fff;
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+      .navegation {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10%;
+        .logotipo {
+          font-size: 55px;
+          align-self: center;
+          color: rgb(11, 100, 201);
+          font-weight: bold;
+          letter-spacing: 2px;
+        }
+        .menu_items {
+          display: flex;
+          align-self: center;
+          li {
+            &:hover {
+              background: rgba(0, 0, 0, .3);
+              transition: .6s;
+            }
+            a {
+              display: block;
+              color: red;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+          }
+        }
+        .icon_menu {
+          align-self: center;
+          cursor: pointer;
+          font-size: 25px;
+          i {
+
+          }
+        }
+        ul.show {
+          top: 65px
+        }
+      }
+    }
+  }
+}
