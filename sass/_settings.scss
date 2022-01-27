@@ -1,0 +1,26 @@
+/* Tamaños responsivo para mobile, tablet and desktop */
+/* Mobile 300px - 767px */
+$small: 300px;
+$small-max: 767px;
+/* Tablet 768px - 1023px */
+$medium: 768px;
+$medium-max: 1023px;
+/* Desktop 1024 + a más */
+$big: 1024px;
+/* ------------------ */
+$font-small: 18px;
+$font-medium: 20px;
+$font-big: 22px;
+/* ----------------- */
+/* Using media Querys with mixin sass */
+@mixin min ($medida) {
+  @media screen and (min-width: $medida) {
+    @content;
+  }
+}
+@mixin max ($medida) {
+  @media screen and (max-width: $medida) {
+    @content;
+  }
+}
+/* ======================================= */
