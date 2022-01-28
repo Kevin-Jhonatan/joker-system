@@ -9,33 +9,20 @@
   <script src="js/menu.js"></script>
   <script src="https://kit.fontawesome.com/9b6a0034ad.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="images/icon/j.ico" type="image/x-icon">
-  <title>Joker | System</title>
+  <title>Joker | Login</title>
 </head>
 <body>
   <div class="loader">
     <img src="images/preloader/load-gif.gif" alt="">
   </div>
-  <div class="container">
-    <div id="particles-js" class="particles">
-      <header class="container-menu">
-        <nav class="navegation">
-          <a href="index.php" class="logotipo">Joker</a>
-          <ul class="menu_items">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Cursos</a></li>
-            <li><a href="#">Profesores</a></li>
-          </ul>
-          <span class="icon_menu">
-            <i class="fa fa-bars"></i>
-          </span>
-        </nav>
-      </header>
+  <div class="container-home">
+    <div class="container-form">
+      <h1 class="title-login">Iniciar Sesión | Joker System</h1>
+      <form action="" method="post">
+        <label for="">Usuario</label>
+      </form>
     </div>
-    <script src="js/particle/particles.js"></script>
-    <script src="js/particle/app.js"></script>
-    <h1>fin</h1>
-    <!-- Aqui termina el preloader -->
-    <script src="js/preloader.js"></script>
   </div>
+  <script src="js/preloader.js"></script>
 </body>
 </html>
